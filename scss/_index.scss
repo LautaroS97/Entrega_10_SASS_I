@@ -1,0 +1,49 @@
+.encabezado:hover{
+    opacity: 75%;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.buybuttom{
+    width: 240px;
+    height: 70px;
+    background-color: $color-dorado;
+    color: black;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: black double 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.buybuttom h2{
+    background-color: transparent;
+    text-decoration: none;
+}
+.buybuttom:hover{
+    background-color: black;
+    color: $color-dorado;
+    border-color: $color-dorado;
+    border: solid 5px;
+}
+.galeria{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    padding-bottom: 1rem;
+}
+.galdeimg{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-color: $color-dorado;
+    margin-bottom: 1rem;
+    color: black;
+    width: 100%;
+}

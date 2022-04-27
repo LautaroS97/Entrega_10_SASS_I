@@ -1,0 +1,13 @@
+.page{
+    background-color: $color-dorado;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+}
+.page h1{
+    background-color: $color-dorado;
+    color: black;
+    height: 4rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 2rem;
+}
