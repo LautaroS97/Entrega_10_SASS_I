@@ -3,7 +3,7 @@
     &:hover{
     opacity: 75%;
     }
-    
+
 }
 .buy{
     display: flex;
@@ -14,9 +14,8 @@
 .buybuttom{
     width: 240px;
     height: 70px;
-    background-color: $color-dorado;
-    color: black;
-    font-family: 'Cinzel', serif;
+    background-color: map-get($map: $palette, $key: 'secondary');
+    @include letra-oscura;
     text-align: center;
     padding: 1rem;
     border-radius: 2rem;
@@ -38,19 +37,14 @@
     
 }
 .galeria{
-    margin: auto;
-    width: 90%;
-    max-width: 800px;
+    @extend %galeria;
     padding-bottom: 1rem;
 }
 .galdeimg{
-    margin: auto;
-    width: 90%;
-    max-width: 800px;
+    @extend %galeria;
     text-align: center;
-    font-family: 'Cinzel', serif;
     background-color: $color-dorado;
     margin-bottom: 1rem;
-    color: black;
+    @include letra-oscura;
     width: 100%;
 }

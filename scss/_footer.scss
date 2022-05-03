@@ -6,9 +6,8 @@
     border-top: black 5px solid;
 
     h2{
-    background-color: $color-dorado;
-    color: black;
-    font-family: 'Cinzel', serif;
+    background-color: map-get($map: $palette, $key: 'secondary');
+    @include letra-oscura;
     }
 
     h3{

@@ -1,10 +1,10 @@
 .formulario{
-    color: white;
+    color: map-get($map: $palette, $key: 'tertiary');
     padding: 3rem;
 }
 .contactbuttom{
     margin-top: 1rem;
 }
 .selectlist{
-    color: white;
+    color: map-get($map: $palette, $key: 'tertiary');
 }

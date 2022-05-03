@@ -12,18 +12,18 @@
 h3{
     font-family: 'Cinzel', serif;
     margin: 1rem;
-    color: $color-dorado;
+    color: map-get($map: $palette, $key: 'secondary');
 }
 h4{
     font-family: 'Marcellus', serif;
     margin: 0.4rem;
     margin-left: 2rem;
-    color: white;
+    color: map-get($map: $palette, $key: 'tertiary');
 }
 .iluminar{
 
     &:hover{
-    color: $color-dorado;
+    color: map-get($map: $palette, $key: 'secondary');
     }
     
 }

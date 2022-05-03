@@ -1,7 +1,7 @@
 .bio{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: white;
+    color: map-get($map: $palette, $key: 'tertiary');
     font-family: 'Marcellus', serif;
     text-align: justify;
     font-size: 1.05rem;
