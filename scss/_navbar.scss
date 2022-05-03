@@ -20,6 +20,10 @@ h4{
     margin-left: 2rem;
     color: white;
 }
-.iluminar:hover{
+.iluminar{
+
+    &:hover{
     color: $color-dorado;
+    }
+    
 }

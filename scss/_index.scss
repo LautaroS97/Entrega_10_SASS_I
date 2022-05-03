@@ -1,5 +1,9 @@
-.encabezado:hover{
+.encabezado{
+    
+    &:hover{
     opacity: 75%;
+    }
+    
 }
 .buy{
     display: flex;
@@ -24,13 +28,14 @@
     background-color: transparent;
     text-decoration: none;
     }
+
+    &:hover{
+        background-color: black;
+        color: $color-dorado;
+        border-color: $color-dorado;
+        border: solid 5px;
+    }
     
-}
-.buybuttom:hover{
-    background-color: black;
-    color: $color-dorado;
-    border-color: $color-dorado;
-    border: solid 5px;
 }
 .galeria{
     margin: auto;
