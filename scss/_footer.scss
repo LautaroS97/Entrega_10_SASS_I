@@ -4,14 +4,17 @@
     padding: 4rem;
     text-align: center;
     border-top: black 5px solid;
-}
-.footer h2{
+
+    h2{
     background-color: $color-dorado;
     color: black;
     font-family: 'Cinzel', serif;
-}
-.footer h3{
+    }
+
+    h3{
     background-color: $color-dorado;
     color: black;
     font-family: 'Marcellus', serif;
+    }
+    
 }
